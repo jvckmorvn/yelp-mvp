@@ -21,6 +21,9 @@ gem "importmap-rails"
 # Use Simple Form
 gem "simple_form", github: "heartcombo/simple_form"
 
+# Use Faker
+gem "faker"
+
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
 gem "turbo-rails"
 

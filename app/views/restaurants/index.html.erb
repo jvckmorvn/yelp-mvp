@@ -1,0 +1,7 @@
+<h1>Restaurants</h1>
+<% @restaurants.each do |restaurant| %>
+  <li style="list-style: none"><%= link_to restaurant.name, restaurant_path(restaurant), class: "text-decoration-none" %></li>
+<% end %>
+<div class="mt-3">
+    <%= link_to "Add new restaurant", new_restaurant_path, class: "btn btn-primary" %>
+</div>
