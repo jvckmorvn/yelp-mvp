@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class RestaurantsController < ApplicationController
   before_action :set_restaurant, only: %i[show edit update destroy]
 
@@ -5,8 +7,7 @@ class RestaurantsController < ApplicationController
     @restaurants = Restaurant.all
   end
 
-  def show
-  end
+  def show; end
 
   def new
     @restaurant = Restaurant.new
@@ -21,8 +22,7 @@ class RestaurantsController < ApplicationController
     end
   end
 
-  def edit
-  end
+  def edit; end
 
   def update
     @restaurant.update(restaurant_params)
