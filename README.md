@@ -1,5 +1,5 @@
 ## Introduction
-Welcome to this lightweight Yelp clone, built as an exercise in implementing CRUD actions available to end-users.
+Welcome to this lightweight Yelp clone, built as an exercise in implementing CRUD actions on a two-model Rails app, and in using the [Simple Form gem](https://github.com/heartcombo/simple_form).
 
 ## Ruby versions
 - Ruby '3.0.3'
